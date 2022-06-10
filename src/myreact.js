@@ -42,9 +42,9 @@ function createElement(type, props, ...children) {
   
   /** @jsx myreact.createElement */
   const element = (
-    <div style="background: salmon">
-      <h1>Hello World</h1>
-      <h2 style="text-align:right">from myreact</h2>
+    <div>
+      <h1>Hello React mini version</h1>
+      <h2 style="text-align:right">from sanhita</h2>
     </div>
   );
   const container = document.getElementById("root");
